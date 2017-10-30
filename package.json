@@ -1,0 +1,36 @@
+{
+  "name": "fz-html-minifier",
+  "version": "0.0.1",
+  "description": "for minify html",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasikaran/fz-html-minifier.git"
+  },
+  "keywords": [
+    "html-mininfier",
+    "minify",
+    "html",
+    "compress"
+  ],
+  "author": "Vasikaran S <vasikaran.25@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vasikaran/fz-html-minifier/issues"
+  },
+  "homepage": "https://github.com/Vasikaran/fz-html-minifier#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "md5": "^2.2.1"
+  }
+}
