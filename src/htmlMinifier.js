@@ -13,7 +13,7 @@ let resolvePatterns = (src, pattern, subPattern)=>{
             }
             let hash = md5(match);
             patterns[hash] = match;
-            match = match.replace(/([<>*()?${}|])/g, '\\$1');
+            match = match.replace(/([<>*()?$][{}|])/g, '\\$1');
             src = src.replace(new RegExp(match, 'g'), hash);
         })
     }

@@ -1,6 +1,6 @@
 {
   "name": "fz-html-minifier",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "for minify html",
   "main": "./lib/index.js",
   "scripts": {
