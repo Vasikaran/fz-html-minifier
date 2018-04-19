@@ -9,6 +9,6 @@
   "author": "Vasikaran S <vasikaran.25@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.8.1"
+    "webpack": "^4.6.0"
   }
 }
